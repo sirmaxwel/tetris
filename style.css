@@ -1,0 +1,61 @@
+/*body code */
+body {
+    background-color: #ffccb3;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+.button {
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #99b3ff
+    ;
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .tetromino {
+    background-color: blue;
+  }
+  
+  
+  .mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #99b3ff
+    ;
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
